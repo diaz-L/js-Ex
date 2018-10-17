@@ -5,4 +5,4 @@ collection of javascript exercises
 Create a function that takes an integer as an argument and returns the factorial (recursive)
 
 ##### Ex 2
-Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers
+Given a list of numbers, return the sum of all odd numbers

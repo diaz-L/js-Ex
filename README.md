@@ -18,3 +18,9 @@ Create a function that returns 'true' if the given string is a palindrome. Other
 characters. Constraint to 1 <= palindrome <= 10^5.
 (hint: A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, 
 and spacing.)
+
+##### Ex 6
+Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+Guaranteed constraints:
+	2 ≤ numL.length ≤ 10,
+ 	-1000 ≤ numL[i] ≤ 1000.

@@ -11,18 +11,25 @@ function adjacentElementsProduct(numL) {
     if (numL.length < 2 || numL.length > 10) {
             return null;
     }
+
+	 /* limit elements to -1000 <= numL <= 1000 */
+	 numL.forEach(function(num) {
+	 	if (num < -1000 || num > 1000 ) {
+			return null;
+		}
+	 });
     
     let largest = numL[0] * numL[1];
+	 let total = largest;
     
-    for( let i = 1, j = 2, total = 0; j <= numL.length; i++, j++ ) {
+    for( let i = 1, j = 2; j <= numL.length; i++, j++ ) {
         total = numL[i] * numL[j];
         if (total > largest) {
             largest = total;
         }
     }
     
-    return (largest >= -1000 || largest <= 1000) ? largest : null;
-
+    return largest;
 }
 
 let print = console.log;

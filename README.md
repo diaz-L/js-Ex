@@ -36,3 +36,10 @@ A 1-interesting polygon is just a square with a side of length 1. An n-interesti
 ##### Ex 8
 
 Find the first non repeated character of a given String
+
+##### Ex 9
+
+The nth Fibonacci number is given by: Fn = Fn-1 + Fn-2
+The first two terms of the series are 0, 1.
+Hence, the series is : 0, 1, 1, 2, 3, 5, 8, 13...
+Write a function that determines nth Fibonacci

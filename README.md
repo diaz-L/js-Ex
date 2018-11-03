@@ -43,3 +43,7 @@ The nth Fibonacci number is given by: Fn = Fn-1 + Fn-2
 The first two terms of the series are 0, 1.
 Hence, the series is : 0, 1, 1, 2, 3, 5, 8, 13...
 Write a function that determines nth Fibonacci
+
+##### Ex 10
+
+Write a function findSum. Up to and including n, this function will return the sum of all multiples of 3 and 5.
